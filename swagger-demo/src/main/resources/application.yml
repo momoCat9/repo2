@@ -1,0 +1,24 @@
+#端口，项目上下文根
+server:
+  port: 8080
+  servlet:
+    context-path: /hotel
+
+spring:
+  profiles:
+    active=dev
+#  datasource:
+#    type: com.mysql.jdbc.Driver
+#      driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/admin?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#      username: root
+#      password: root
+#  # 开发环境配置
+#  profiles: dev
+#
+#  resources:
+#    #指定静态资源路径，默认为classpath:[/META-INF/resources/,/resources/, /static/, /public/]以及context:/
+#    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/}
+#
+#mysql:
+#  ipPort: localhost:3306
